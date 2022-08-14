@@ -1,3 +1,7 @@
 import platform
 
-print(platform.system())
+
+def getOs():
+    os = platform.system()
+    return os
+

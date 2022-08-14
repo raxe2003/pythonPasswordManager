@@ -9,6 +9,10 @@ from hash import hashPassword as hp
 from addNewPasswords import addPasswords as addPass
 from readAllPasswords import readAll as ra
 from clearEverything import clearEverything as ca
+from checkOs import getOs
+
+os = getOs()
+
 
 def clear():
     os.system("clear")
