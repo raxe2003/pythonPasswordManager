@@ -1,5 +1,4 @@
 from operator import truediv
-import turtle
 import colorama
 from colorama import Fore
 import os
@@ -85,7 +84,7 @@ print(Fore.RED+"this is advanced password manager")
 time.sleep(2)
 print("let me check if you used this program before")
 time.sleep(5)
-userAlreadyExists = os.path.exists("passwords")
+userAlreadyExists = os.path.exists('passwrods')
 if userAlreadyExists == True:
     os.system("clear")
     print(Fore.GREEN + "I found your old passwords file")
