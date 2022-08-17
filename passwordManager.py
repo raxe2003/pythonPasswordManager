@@ -9,6 +9,7 @@ from addNewPasswords import addPasswords as addPass
 from readAllPasswords import readAll as ra
 from clearEverything import clearEverything as ca
 from checkOs import getOs
+from userExists import userAlreadyExists as doesExist
 
 os = getOs()
 
