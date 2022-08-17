@@ -1,6 +1,4 @@
 from base64 import encode
-import bcrypt
-from colorama import Fore
 import os
 
 

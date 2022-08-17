@@ -5,6 +5,7 @@ import os
 import time
 import sys
 from hash import hashPassword as hp
+from userExists import userAlreadyExists as doesExist
 goodEnoughStr = "is this right (y/n): "
 
 
