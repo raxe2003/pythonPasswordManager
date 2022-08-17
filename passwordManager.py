@@ -11,7 +11,7 @@ from clearEverything import clearEverything as ca
 from checkOs import getOs
 from userExists import userAlreadyExists as doesExist
 
-os = getOs()
+userOs = getOs()
 
 
 def clear():
@@ -86,7 +86,7 @@ time.sleep(2)
 print("let me check if you used this program before")
 time.sleep(5)
 
-if os.path.exists("passwords"):
+if doesExist("passwords"):
     os.system("clear")
     print(Fore.GREEN + "I found your old passwords file")
     print("lets go to main menu")
