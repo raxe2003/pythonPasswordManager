@@ -9,3 +9,4 @@ def hashPassword(password):
     hashPass = bcrypt.hashpw(password.encode('utf-8'), salt)
     return hashPass
 
+
